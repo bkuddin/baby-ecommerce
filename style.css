@@ -13,6 +13,9 @@ body {
 
 .baby-shop-bg {
   background-image: url(images/baby-world-bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 }
 
 .div-width {
