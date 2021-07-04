@@ -12,9 +12,11 @@ body {
 }
 
 .baby-shop-bg {
-  background-image: url(images/baby-world-bg.gif);
-  background-repeat: no-repeat;
-  background-size: 60%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 145, 0, 0.479),
+    rgba(162, 0, 255, 0.507)
+  );
 }
 
 .div-width {
@@ -71,6 +73,15 @@ body {
 
 /*Extra code for 2nd section start*/
 
+.lowest-prices-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(8, 187, 163, 0.479),
+    rgba(255, 251, 0, 0.507)
+  );
+}
+
 .div-width .second-cover {
   width: 80%;
+  margin-top: 20px;
 }
