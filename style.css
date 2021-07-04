@@ -45,7 +45,7 @@ body {
 }
 
 .part-of-h2 {
-  color: rgb(87, 7, 60);
+  color: #42266b;
   font-weight: 900;
   font-size: 80px;
 }
@@ -57,13 +57,14 @@ body {
 }
 
 .button {
-  background-color: rgb(87, 7, 60);
+  background: none;
   font-size: 30px;
   padding: 10px 40px;
   border-radius: 20px;
   color: white;
   font-weight: 700;
-  border: none;
+  border: 1px solid white;
+  margin-top: 20px;
 }
 
 .button:hover {
