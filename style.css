@@ -90,7 +90,10 @@ body {
 /*Product section start*/
 
 .product-section {
-  background-image: url(images/);
+  background-image: url(images/product-bg-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 100px;
 }
 
 .product-div {
@@ -99,7 +102,34 @@ body {
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
+  padding: 30px;
   border-radius: 8px;
+}
+
+.chart-button {
+  background: linear-gradient(45deg, rgb(245, 202, 10), rgb(216, 127, 10));
+  padding: 15px 40px;
+  color: white;
+  margin: 180px 45px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*Hover Game*/
+
+.hide {
+  display: none;
+}
+
+.product-div:hover .hide {
+  display: block;
+  position: absolute;
+}
+
+.product-div:hover img {
+  visibility: hidden;
 }
 
 .product-section h1 {
@@ -110,4 +140,20 @@ body {
 
 .product-div img {
   width: 80%;
+  margin-top: 20px;
+}
+
+.product-div h3 {
+  font-size: 40px;
+  color: #42266b;
+}
+
+.new-title {
+  background-color: #42266b;
+  width: 30%;
+  color: white;
+  display: inline;
+  margin-left: -264px;
+  padding: 5px 30px;
+  margin-top: 30px;
 }
