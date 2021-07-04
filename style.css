@@ -68,3 +68,9 @@ body {
   background-color: white;
   color: rgb(87, 7, 60);
 }
+
+/*Extra code for 2nd section start*/
+
+.div-width .second-cover {
+  width: 80%;
+}
