@@ -86,3 +86,28 @@ body {
   width: 80%;
   margin-top: 20px;
 }
+
+/*Product section start*/
+
+.product-section {
+  background-image: url(images/);
+}
+
+.product-div {
+  width: 40%;
+  box-shadow: 5px 7px 40px grey;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 8px;
+}
+
+.product-section h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.product-div img {
+  width: 80%;
+}
