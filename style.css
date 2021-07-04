@@ -11,6 +11,10 @@ body {
   display: flex;
 }
 
+.baby-shop-bg {
+  background-image: url(images/baby-world-bg.gif);
+}
+
 .div-width {
   width: 50%;
   margin-left: 5%;
