@@ -14,8 +14,7 @@ body {
 .baby-shop-bg {
   background-image: url(images/baby-world-bg.gif);
   background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
+  background-size: 60%;
 }
 
 .div-width {
@@ -29,9 +28,10 @@ body {
 }
 
 .div-width h1 {
-  font-size: 70px;
+  font-size: 90px;
   font-weight: 700;
   margin-top: 130px;
+  color: white;
 }
 
 .div-width h2 {
@@ -39,4 +39,11 @@ body {
   font-weight: 700;
   margin-top: 20px;
   line-height: 50px;
+  color: white;
+}
+
+.part-of-h2 {
+  color: rgb(87, 7, 60);
+  font-weight: 900;
+  font-size: 80px;
 }
