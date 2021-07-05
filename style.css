@@ -77,8 +77,8 @@ body {
 .lowest-prices-bg {
   background: linear-gradient(
     90deg,
-    rgba(8, 187, 163, 0.479),
-    rgba(255, 251, 0, 0.507)
+    rgba(250, 225, 3, 0.884),
+    rgba(243, 101, 44, 0.747)
   );
 }
 
