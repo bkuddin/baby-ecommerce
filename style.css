@@ -157,3 +157,23 @@ body {
   padding: 5px 30px;
   margin-top: 30px;
 }
+
+/*linear-gradient border*/
+
+#item-1 {
+  border-right: 10px solid;
+  border-image: linear-gradient(180deg, rgb(27, 2, 44), rgb(115, 69, 201));
+  border-image-slice: 1;
+}
+
+#item-2 {
+  border-right: 10px solid;
+  border-image: linear-gradient(180deg, hsl(197, 93%, 48%), rgb(4, 44, 66));
+  border-image-slice: 1;
+}
+
+#item-3 {
+  border-right: 10px solid;
+  border-image: linear-gradient(180deg, hsl(19, 93%, 48%), rgb(245, 142, 135));
+  border-image-slice: 1;
+}
